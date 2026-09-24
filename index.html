@@ -308,9 +308,9 @@ input:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(8,117,209,.12)}
       <h1>Welcome to your Candidate Portal</h1>
       <p>Sign in to securely access your candidate information, employment acceptance and next steps.</p>
       
-      <form id="loginForm">
-        <div class="field"><label for="email">Email address</label><input id="email" type="email" autocomplete="username" value="jlcm011@iCloud.com" required></div>
-        <div class="field"><label for="password">Password</label><input id="password" type="password" autocomplete="current-password" value="Carlamendoza01" required></div>
+      <form id="loginForm" autocomplete="off">
+        <div class="field"><label for="email">Email address</label><input id="email" type="email" autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false" value="" required></div>
+        <div class="field"><label for="password">Password</label><input id="password" type="password" autocomplete="new-password" autocapitalize="none" autocorrect="off" spellcheck="false" value="" required></div>
         <div class="login-help">
           <button type="button" class="text-link" id="forgotPassword">Forgot your password?</button>
           <button type="button" class="text-link" id="loginHelp">Help</button>
